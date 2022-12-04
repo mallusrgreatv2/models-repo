@@ -1,12 +1,12 @@
 {
-  "name": "models-repo",
+  "name": "@mallusrgreat/models-repo",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/mallusrgreatv2/models-repo.git",
   "author": "mlsrgrtv2 <119775593+mlsrgrtv2@users.noreply.github.com>",
   "license": "MIT",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@mallusrgreatv2"
+    "@mallusrgreatv2:registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
     "mongoose": "^6.7.5",
