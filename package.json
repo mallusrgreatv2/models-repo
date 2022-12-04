@@ -5,6 +5,9 @@
   "repository": "https://github.com/mallusrgreatv2/models-repo.git",
   "author": "mlsrgrtv2 <119775593+mlsrgrtv2@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "echo work"
+  },
   "publishConfig": {
     "@mallusrgreatv2:registry": "https://npm.pkg.github.com"
   },
