@@ -43,5 +43,5 @@ const dashboardSchema = new mongoose.Schema({
   secretAccessKey: String,
 });
 module.exports.GuildSchema = model("guild", guildSchema);
-module.exports.UserSchema = model("guild", userSchema);
+module.exports.UserSchema = model("User", userSchema);
 module.exports.DashboardUser = model("discord_users", dashboardSchema);
