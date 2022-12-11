@@ -1,4 +1,5 @@
 const { model, Schema, SchemaTypes } = require("mongoose");
+const mongoose = require("mongoose");
 const validator = require("validator");
 const guildSchema = new Schema({
   id: String,
