@@ -3,6 +3,7 @@ const validator = require("validator");
 const guildSchema = new Schema({
   id: String,
   ModRole: String,
+  AdminRole: String,
 });
 const userSchema = new Schema({
   id: {
@@ -42,4 +43,4 @@ const dashboardSchema = new mongoose.Schema({
 });
 module.exports.GuildSchema = model("guild", guildSchema);
 module.exports.UserSchema = model("guild", userSchema);
-module.exports.DashboardUser = model("discord_users", DashboardUser);
+module.exports.DashboardUser = model("discord_users", dashboardSchema);
