@@ -18,10 +18,6 @@ const userSchema = new Schema({
   },
 });
 const dashboardSchema = new mongoose.Schema({
-  discordId: {
-    type: mongoose.SchemaTypes.String,
-    required: true,
-  },
   createdAt: {
     type: mongoose.SchemaTypes.Date,
     required: true,
@@ -31,12 +27,10 @@ const dashboardSchema = new mongoose.Schema({
     type: mongoose.SchemaTypes.Array,
     required: true,
   },
-  user: {
-    id: String,
-    username: String,
-    discriminator: String,
-    avatar: String,
-  },
+  id: String,
+  username: String,
+  discriminator: String,
+  avatar: String,
   access_token: String,
   refresh_token: String,
   expires_in: Number,
